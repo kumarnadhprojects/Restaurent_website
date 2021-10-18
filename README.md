@@ -2,6 +2,12 @@
 
 This is a restaurent website to provide food service.
 
+* Used technologies
+* HTML5
+* CSS3
+* Javascript
+* Bootstrap 4.5
+
 # Installation
 
 * Download the zip file and extract the file.
