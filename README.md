@@ -2,7 +2,7 @@
 
 This is a restaurent website to provide food service.
 
-# <strong>Used technologies</strong>
+# Used technologies
 * HTML5
 * CSS3
 * Javascript
@@ -12,7 +12,7 @@ This is a restaurent website to provide food service.
 # Installation
 
 * Download the zip file and extract the file.
-* Double click index.html or open with "google chrome browser".
+* Double click "index.html" or open with "google chrome browser".
 * Finish to see output.
 
 <strong>Happy learning.</strong>
