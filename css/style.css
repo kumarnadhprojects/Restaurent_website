@@ -1,0 +1,276 @@
+/* CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.bg-color {
+    background-color: #252525 !important;
+}
+
+.bg-nav{
+    background-color: transparent;
+}
+
+
+nav li a {
+    color: white !important;
+    font-weight: 600;
+    margin: 5px;
+}
+
+nav li a:hover {
+    color: greenyellow;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.botton-line:hover{
+    border-bottom: 2px solid greenyellow;
+}
+
+.active-nav {
+    border-bottom: 2px solid greenyellow;
+}
+
+.nav-button{
+    font-size: 14px;
+    border-radius: 0px;
+    font-weight: 600;
+    padding: 15px;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.nav-button:hover {
+    background-color: transparent !important;
+    border: 1px solid white;
+    color: white;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 30px;
+}
+
+.slides-text{
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.slide-heading{
+    font-size: 17px;
+}
+
+.slides-main{
+    font-size: 100px;
+}
+
+.slides-contact{
+    border-bottom: 2px solid white;
+    font-weight: 600;
+    color: white;
+    text-decoration: none !important;
+}
+
+.slides-contact:hover {
+    color: white;
+}
+
+.slide-container1{
+    background-image: url("../images/Slide1.jpg");
+    background-size: cover;
+}
+
+.slide-container2{
+    background-image: url("../images/Slide2.jpg");
+    background-size: cover;
+}
+
+.slide-container3{
+    background-image: url("../images/Slide3.jpg");
+    background-size: cover;
+}
+
+.slides-image-styles{
+    height: 100vh;
+    background-position: center center;
+}
+
+.s2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.button{
+    border-radius: 0px;
+    padding: 15px;
+    width: 180px;
+}
+
+.s3{
+    background-image: url("../images/section3-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.s3-paragraph{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.s3-capsion{
+    font-weight: 600;
+}
+
+.s4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s4-bodder{
+    border-bottom: 1px dotted #000000;
+    padding-top: 15px;
+}
+
+.menu-style{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-price{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-text{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.nav-link.active{
+    background-color: transparent !important;
+    color: steelblue !important;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: #000;
+    font-weight: 600;
+}
+
+.s4-heading{
+    color: steelblue !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.s5 {
+    background-image: url("../images/section5-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.s5 p {
+    font-weight: 600;
+}
+
+.s5 h1 {
+    font-size: 45px;
+}
+
+.s6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s6-heading{
+    color: steelblue !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.s7 {
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/Section7-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.s7 p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.s7-mb{
+    margin-bottom: 20px !important;
+}
+
+.s7-text{
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s7-heading-main{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.s7-content-heading{
+    line-height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-heading{
+        font-size: 15px;
+    }
+    .slides-main{
+        font-size: 50px;
+    }
+    .s2-d-none{
+        display: none;
+    }
+    .s7 p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bg-nav{
+        background-color: #252525;
+    }
+}
