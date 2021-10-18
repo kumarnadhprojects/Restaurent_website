@@ -2,7 +2,7 @@
 
 This is a restaurent website to provide food service.
 
-* Used technologies
+<strong>Used technologies</strong>
 * HTML5
 * CSS3
 * Javascript
