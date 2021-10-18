@@ -2,11 +2,12 @@
 
 This is a restaurent website to provide food service.
 
-<strong><u>Used technologies</u></strong>
+# <strong>Used technologies</strong>
 * HTML5
 * CSS3
 * Javascript
 * Bootstrap 4.5
+* CSS Flex properties
 
 # Installation
 
