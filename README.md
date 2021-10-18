@@ -15,4 +15,7 @@ This is a restaurent website to provide food service.
 * Double click "index.html" or open with "google chrome browser".
 * Finish to see output.
 
+Output:
+https://kumarnadhprojects.github.io/Restaurent_website/
+
 <strong>Happy codeing.</strong>
