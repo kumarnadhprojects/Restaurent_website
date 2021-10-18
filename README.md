@@ -9,4 +9,4 @@ This is a restaurent website to provide food service.
 * (OR) Open with Google Chrome Browser.
 * Finish to see output.
 
-## Happy learning.
+<strong>Happy learning.</strong>
