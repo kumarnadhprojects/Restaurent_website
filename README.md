@@ -15,4 +15,4 @@ This is a restaurent website to provide food service.
 * Double click "index.html" or open with "google chrome browser".
 * Finish to see output.
 
-<strong>Happy learning.</strong>
+<strong>Happy codeing.</strong>
