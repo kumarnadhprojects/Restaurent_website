@@ -1,5 +1,6 @@
 /* CSS file */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
 *{
     margin: 0px;
@@ -133,6 +134,8 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .s3-paragraph{
@@ -254,6 +257,101 @@ nav li a:hover {
     line-height: 60px;
 }
 
+.s7-testimonials{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.s7-testag{
+    font-size: 11px;
+}
+
+.s7-feedback{
+    font-family: 'Carattere';
+    font-size: 38px !important;
+}
+
+hr{
+    border: 1px solid white !important;
+    width: 50px;
+}
+
+.s8 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s8-heading{
+    font-size: 20px;
+    color: steelblue;
+}
+
+.s8-main-heading{
+    font-size: 50px;
+}
+
+.s8-content{
+    text-align: left;
+    font-weight: 600;
+}
+
+.s8-content-paragraph{
+    text-align: left;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+.footer-heading{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer-img{
+    margin-bottom: 20px;
+}
+
+.footer-content{
+    color: #999999;
+}
+
+.footer-declaration{
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: #999999;
+}
+
+.footer-links:hover {
+    color: #b6b0b0;
+    text-decoration: none;
+}
+
+.footer i {
+    color: #999999;
+    margin: 5px;
+}
+
+.footer i:hover{
+    color: #b6b0b0;
+}
+
+@media screen and (max-width: 992px) {
+    .bg-nav{
+        background-color: #252525;
+    }
+    .s7-feedback{
+        font-size: 30px !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .slide-heading{
         font-size: 15px;
@@ -267,10 +365,10 @@ nav li a:hover {
     .s7 p{
         font-size: 15px;
     }
-}
-
-@media screen and (max-width: 992px) {
-    .bg-nav{
-        background-color: #252525;
+    .s7-feedback{
+        font-size: 20px !important;
+    }
+    .s7-heading-main{
+        font-size: 30px;
     }
 }
