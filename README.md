@@ -2,7 +2,7 @@
 
 This is a restaurent website to provide food service.
 
-#Installation
+# Installation
 
 * Download the zip file and extract the file.
 * Double click index.html
